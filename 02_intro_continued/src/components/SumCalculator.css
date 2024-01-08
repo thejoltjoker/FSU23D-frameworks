@@ -1,0 +1,3 @@
+input[type="number"] {
+  @apply bg-slate-200 border-none rounded-lg text-slate-900 font-bold;
+}
