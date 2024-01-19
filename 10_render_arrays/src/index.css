@@ -1,0 +1,48 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply bg-green-700;
+}
+h1 {
+  @apply m-5 mx-auto text-center text-5xl font-extrabold text-white;
+}
+h2 {
+  @apply text-2xl font-bold;
+}
+@layer components {
+  .zoo {
+    @apply mx-auto grid max-w-screen-lg grid-cols-2 gap-5 px-5 md:grid-cols-3;
+  }
+
+  .animal-display {
+    @apply flex flex-col gap-2 overflow-hidden rounded-lg bg-white p-4;
+  }
+
+  .enclosure {
+    @apply relative w-full overflow-hidden rounded-lg;
+  }
+
+  .enclosure-bars {
+    background: repeating-linear-gradient(
+      90deg,
+      rgba(20, 20, 20, 1) 0px,
+      rgba(101, 101, 101, 1) 2px,
+      rgba(20, 20, 20, 1) 4px,
+      rgba(20, 20, 20, 0.25) 4px,
+      rgba(20, 20, 20, 0.1) 8px,
+      rgba(20, 20, 20, 0) 12px,
+      rgba(20, 20, 20, 0) 16px
+    );
+    @apply absolute left-0 top-0 h-full w-full bg-repeat-x transition-all duration-500;
+  }
+
+  .animal-emoji {
+    @apply flex w-full grow items-center justify-center bg-stone-300 py-10 text-8xl;
+  }
+
+  .button {
+    @apply rounded-lg bg-green-400 px-3 py-2 text-green-950 transition hover:bg-green-300;
+  }
+}
