@@ -1,10 +1,8 @@
 import { ChangeEvent, FormEvent, useState } from "react";
 import { Post } from "../models/Post";
 
-type Props = {};
-
-const CreatePost = (props: Props) => {
-  const [post, setPost] = useState<Post>(new Post("", [], "", new Date()));
+const CreatePost = () => {
+  const [post, setPost] = useState<Post>(new Post("", "", [], "", new Date()));
 
   const extractTags = (text: string): string[] => {
     const matches = text.match(/#[\w\p{L}]+/giu);
@@ -13,7 +11,7 @@ const CreatePost = (props: Props) => {
   const handleOnBodyChange = (e: ChangeEvent<HTMLInputElement>) => {
     // Extract tags
     const tags = extractTags(e.target.value);
-    setPost({ ...post, body: e.target.value, tags: tags });
+    setPost({ ...post, body: e.target.value, hashtags: tags });
   };
 
   const handleSubmit = (e: FormEvent) => {
@@ -40,7 +38,7 @@ const CreatePost = (props: Props) => {
         <div className="flex items-center gap-2">
           <h5>Tags:</h5>
           <ul className=" text-sky-500 inline-flex gap-2">
-            {post.tags.map((tag) => (
+            {post.hashtags.map((tag) => (
               <li>{tag}</li>
             ))}
           </ul>

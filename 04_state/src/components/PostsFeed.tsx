@@ -8,9 +8,10 @@ type Props = {
 const PostsFeed = (props: Props) => {
   return (
     <div className="flex flex-col gap-2 mt-10">
-      {props.posts.map((post) => (
-        <FeedItem post={post} />
-      ))}
+      {props.posts.map((post) => {
+        console.log(post);
+        return <FeedItem post={post} key={post.id} />;
+      })}
     </div>
   );
 };

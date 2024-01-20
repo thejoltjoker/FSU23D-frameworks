@@ -57,4 +57,4 @@ export default App;' > src/App.tsx
 
 
 # Replace readme
-echo $projname > README.md
+echo "#$projname" > README.md

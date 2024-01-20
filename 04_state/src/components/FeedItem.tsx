@@ -12,7 +12,7 @@ const FeedItem: React.FC<Props> = ({ post }) => {
 
       <div className="inline-flex items-center w-full text-sm justify-between">
         <ul className="text-sky-400 inline-flex gap-2">
-          {post.tags.map((tag) => (
+          {post.hashtags.map((tag) => (
             <li>{tag}</li>
           ))}
         </ul>

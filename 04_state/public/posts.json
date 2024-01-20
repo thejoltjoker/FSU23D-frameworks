@@ -1,0 +1,74 @@
+{
+  "posts": [
+    {
+      "id": "1c5e8a2b-6e92-4f2e-b157-73b3d55f428d",
+      "title": "Reflecting on life's lessons. #Reflections #LifeLessons",
+      "hashtags": ["#Reflections", "#LifeLessons"],
+      "author": "Philosopher",
+      "date": "2024-01-12"
+    },
+    {
+      "id": "51a8d92c-9b8d-4c0a-80d5-2898cf0c26cf",
+      "title": "Latest tech gadgets and innovations. #TechNews #Innovation",
+      "hashtags": ["#TechNews", "#Innovation"],
+      "author": "TechGuru",
+      "date": "2024-01-11"
+    },
+    {
+      "id": "2e7cfe19-dc1b-4e4d-af15-7d4d5d4bd9e1",
+      "title": "Artistic expressions through paint and canvas. #Art #Creativity",
+      "hashtags": ["#Art", "#Creativity"],
+      "author": "Artisan",
+      "date": "2024-01-10"
+    },
+    {
+      "id": "0f9e32c7-f0c0-4a76-92aa-3e36c94c7c78",
+      "title": "Fitness journey in progress. 💪 #FitnessMotivation #HealthyHabits",
+      "hashtags": ["#FitnessMotivation", "#HealthyHabits"],
+      "author": "FitExplorer",
+      "date": "2024-01-09"
+    },
+    {
+      "id": "d6932d6f-4a5f-4de9-9f3e-75e18f0f5bd7",
+      "title": "Traveling to exotic destinations. #Wanderlust #AdventureTime",
+      "hashtags": ["#Wanderlust", "#AdventureTime"],
+      "author": "GlobeTrotter",
+      "date": "2024-01-08"
+    },
+    {
+      "id": "1aa79c5d-7434-4328-bc5c-e25d8e8c7f02",
+      "title": "Coding adventures with JavaScript and React. #Coding #WebDevelopment",
+      "hashtags": ["#Coding", "#WebDevelopment"],
+      "author": "CodeNinja",
+      "date": "2024-01-07"
+    },
+    {
+      "id": "1f3b9fc1-824d-4e99-a92b-695c12a09f87",
+      "title": "New book alert! Dive into the world of mystery and suspense. #BookRecommendation #Thriller",
+      "hashtags": ["#BookRecommendation", "#Thriller"],
+      "author": "BookWorm",
+      "date": "2024-01-06"
+    },
+    {
+      "id": "5f60df60-0997-4d76-a61f-67f5e314ea56",
+      "title": "Chasing sunsets and capturing moments. #Photography #NatureLover",
+      "hashtags": ["#Photography", "#NatureLover"],
+      "author": "ShutterBug",
+      "date": "2024-01-05"
+    },
+    {
+      "id": "6eb31e15-409c-4b44-b8ec-9ef90cbf47c2",
+      "title": "Delicious recipes for a healthy lifestyle. #Cooking #HealthyLiving",
+      "hashtags": ["#Cooking", "#HealthyLiving"],
+      "author": "ChefMaster",
+      "date": "2024-01-04"
+    },
+    {
+      "id": "3347d590-c5de-4c01-852e-91c1718353f0",
+      "title": "Exploring the wonders of #MachineLearning and #AI. The future is here!",
+      "hashtags": ["#MachineLearning", "#AI"],
+      "author": "TechEnthusiast",
+      "date": "2024-01-03"
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Smartphone X",
+      "brand": "TechCo",
+      "price": 599.99,
+      "color": "Black",
+      "availability": true
+    },
+    {
+      "id": 2,
+      "name": "Laptop Pro",
+      "brand": "ElectroTech",
+      "price": 1299.99,
+      "color": "Silver",
+      "availability": false
+    },
+    {
+      "id": 3,
+      "name": "Wireless Headphones",
+      "brand": "AudioGear",
+      "price": 79.99,
+      "color": "Red",
+      "availability": true
+    },
+    {
+      "id": 4,
+      "name": "Fitness Tracker",
+      "brand": "FitLife",
+      "price": 49.99,
+      "color": "Blue",
+      "availability": true
+    },
+    {
+      "id": 5,
+      "name": "4K Smart TV",
+      "brand": "VisionTech",
+      "price": 899.99,
+      "color": "Black",
+      "availability": true
+    },
+    {
+      "id": 6,
+      "name": "Gaming Mouse",
+      "brand": "GameMaster",
+      "price": 39.99,
+      "color": "RGB",
+      "availability": true
+    },
+    {
+      "id": 7,
+      "name": "Coffee Maker",
+      "brand": "HomeCafe",
+      "price": 89.99,
+      "color": "Stainless Steel",
+      "availability": false
+    },
+    {
+      "id": 8,
+      "name": "Desk Chair",
+      "brand": "OfficeComfort",
+      "price": 149.99,
+      "color": "Black",
+      "availability": true
+    },
+    {
+      "id": 9,
+      "name": "Portable Bluetooth Speaker",
+      "brand": "SoundWave",
+      "price": 59.99,
+      "color": "Green",
+      "availability": true
+    },
+    {
+      "id": 10,
+      "name": "External Hard Drive",
+      "brand": "DataVault",
+      "price": 119.99,
+      "color": "Silver",
+      "availability": true
+    }
+  ]
+}
