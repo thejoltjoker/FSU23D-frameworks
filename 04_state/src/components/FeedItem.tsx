@@ -8,12 +8,12 @@ const FeedItem: React.FC<Props> = ({ post }) => {
   return (
     <div className="text-start p-4 bg-white rounded-lg">
       <p className="pb-2 font-bold text-sky-800">@{post.author}</p>
-      <p className="text-lg pb-2">{post.body}</p>
+      <p className="text-lg pb-2">{post.title}</p>
 
       <div className="inline-flex items-center w-full text-sm justify-between">
         <ul className="text-sky-400 inline-flex gap-2">
           {post.hashtags.map((tag) => (
-            <li>{tag}</li>
+            <li key={`${post.id}-${tag}`}>{tag}</li>
           ))}
         </ul>
         <p className="text-slate-400 text-sm">

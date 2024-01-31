@@ -12,7 +12,8 @@ pnpm create vite@latest $projname --- --template react-ts
 cd $projname
 
 # Setup tailwind
-pnpm install -D tailwindcss postcss autoprefixer
+pnpm install -D tailwindcss postcss autoprefixer @tailwindcss/forms
+
 
 npx tailwindcss init -p
 
@@ -25,7 +26,7 @@ export default {
   theme: {
     extend: {},
   },
-  plugins: [],
+  plugins: [require("@tailwindcss/forms")],
 }' > tailwind.config.js
 
 echo "@tailwind base; 
@@ -38,7 +39,6 @@ pnpm install -D prettier prettier-plugin-tailwindcss
 echo '{
   "plugins": ["prettier-plugin-tailwindcss"]
 }' > .prettierrc
-
 
 # Cleanup boilerplate
 rm public/vite.svg src/assets/react.svg
@@ -72,3 +72,6 @@ Create a basic React app using Vite, TypeScript and Tailwind.
 - Visual Studio Code
 
 " > README.md
+
+# Open vscode
+code .

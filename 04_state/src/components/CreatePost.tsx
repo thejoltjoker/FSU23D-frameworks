@@ -1,21 +1,26 @@
 import { ChangeEvent, FormEvent, useState } from "react";
 import { Post } from "../models/Post";
-
-const CreatePost = () => {
-  const [post, setPost] = useState<Post>(new Post("", "", [], "", new Date()));
+interface CreatePostProps {
+  onSubmit: (post: Post) => void;
+}
+const CreatePost = (props: CreatePostProps) => {
+  const [post, setPost] = useState<Post>(
+    new Post(Date.now().toString(), "", [], "localhost", new Date())
+  );
 
   const extractTags = (text: string): string[] => {
     const matches = text.match(/#[\w\p{L}]+/giu);
     return matches ?? [];
   };
-  const handleOnBodyChange = (e: ChangeEvent<HTMLInputElement>) => {
+  const handleOnTitleChange = (e: ChangeEvent<HTMLInputElement>) => {
     // Extract tags
     const tags = extractTags(e.target.value);
-    setPost({ ...post, body: e.target.value, hashtags: tags });
+    setPost({ ...post, title: e.target.value, hashtags: tags });
   };
 
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
+    props.onSubmit(post);
   };
   return (
     <div className="bg-white rounded-lg">
@@ -23,10 +28,10 @@ const CreatePost = () => {
         <div className="flex gap-4">
           <input
             type="text"
-            name="body"
+            name="title"
             className="bg-slate-100 grow rounded-lg border-slate-300"
-            value={post.body}
-            onChange={handleOnBodyChange}
+            value={post.title}
+            onChange={handleOnTitleChange}
           />
           <button
             className="bg-sky-500 text-white font-bold px-4 py-2 rounded-lg border border-sky-600"
@@ -39,7 +44,7 @@ const CreatePost = () => {
           <h5>Tags:</h5>
           <ul className=" text-sky-500 inline-flex gap-2">
             {post.hashtags.map((tag) => (
-              <li>{tag}</li>
+              <li key={`create-${tag}`}>{tag}</li>
             ))}
           </ul>
         </div>
