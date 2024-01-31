@@ -9,19 +9,22 @@ const PokeDex = () => {
   const [query, setQuery] = useState("pikachu");
   const [pokemon, setPokemon] = useState<Pokemon>();
   useEffect(() => {
-    const fetchPokemon = async () => {
-      const result = await axios.get<Pokemon>(
-        `https://pokeapi.co/api/v2/pokemon/${query.toLowerCase()}`,
-      );
-      if (!ignore) {
-        setPokemon(result.data);
-      }
-    };
     let ignore = false;
+    const timer = setTimeout(() => {
+      const fetchPokemon = async () => {
+        const result = await axios.get<Pokemon>(
+          `https://pokeapi.co/api/v2/pokemon/${query.toLowerCase()}`,
+        );
+        if (!ignore) {
+          setPokemon(result.data);
+        }
+      };
 
-    fetchPokemon();
+      fetchPokemon();
+    }, 300);
 
     return () => {
+      clearTimeout(timer);
       ignore = true;
     };
   }, [query]);
