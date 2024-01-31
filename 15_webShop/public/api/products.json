@@ -1,0 +1,394 @@
+{
+  "items": [
+    {
+      "id": 1,
+      "name": "Casual T-Shirt",
+      "category": "Tops",
+      "brand": "XYZ Brand",
+      "price": 19.99,
+      "color": "Blue",
+      "size": "M",
+      "material": "Cotton",
+      "description": "Comfortable and stylish casual T-shirt for everyday wear.",
+      "shortDescription": "Stylish Casual T-Shirt",
+      "images": ["tshirt_blue_front.jpg", "tshirt_blue_back.jpg"],
+      "availability": true,
+      "rating": 4.5,
+      "reviews": [
+        {
+          "username": "User1",
+          "rating": 4.5,
+          "comment": "Great fit and quality!"
+        },
+        { "username": "User2", "rating": 5, "comment": "Love the color." },
+        { "username": "User3", "rating": 4, "comment": "Comfortable to wear." }
+      ]
+    },
+    {
+      "id": 424,
+      "name": "Casual Cotton T-Shirt",
+      "category": "Tops",
+      "brand": "ComfortWear",
+      "price": 19.99,
+      "color": "Blue",
+      "size": "M",
+      "material": "Cotton",
+      "description": "A comfortable and stylish casual T-shirt made from high-quality cotton.",
+      "shortDescription": "Stylish and comfortable cotton T-shirt for everyday wear.",
+      "images": ["image_url1.jpg", "image_url2.jpg", "image_url3.jpg"],
+      "availability": true,
+      "rating": 4.5,
+      "reviews": [
+        {
+          "username": "FashionFan123",
+          "rating": 5,
+          "comment": "Love the fit and feel of this T-shirt! Highly recommended."
+        },
+        {
+          "username": "CasualDude456",
+          "rating": 4,
+          "comment": "Nice T-shirt, but the color slightly differs from the image."
+        }
+      ]
+    },
+    {
+      "id": 25,
+      "name": "Formal Blazer",
+      "category": "Blazers",
+      "brand": "ABC Fashion",
+      "price": 129.99,
+      "color": "Black",
+      "size": "L",
+      "material": "Wool Blend",
+      "description": "Classic black blazer for formal occasions.",
+      "shortDescription": "Formal Black Blazer",
+      "images": ["blazer_black_front.jpg", "blazer_black_back.jpg"],
+      "availability": true,
+      "rating": 4.8,
+      "reviews": [
+        {
+          "username": "User22",
+          "rating": 4.8,
+          "comment": "Looks sharp and fits well."
+        },
+        {
+          "username": "User23",
+          "rating": 5,
+          "comment": "High-quality material."
+        },
+        {
+          "username": "User24",
+          "rating": 4.5,
+          "comment": "Perfect for professional events."
+        }
+      ]
+    },
+    {
+      "id": 587,
+      "name": "Slim Fit Denim Jeans",
+      "category": "Pants",
+      "brand": "FashionChic",
+      "price": 39.99,
+      "color": "Black",
+      "size": "S",
+      "material": "Denim",
+      "description": "Stylish and slim-fit black denim jeans for a trendy look.",
+      "shortDescription": "Trendy slim-fit denim jeans for a chic style.",
+      "images": ["image_url4.jpg", "image_url5.jpg", "image_url6.jpg"],
+      "availability": true,
+      "rating": 4.2,
+      "reviews": [
+        {
+          "username": "TrendyExplorer",
+          "rating": 4,
+          "comment": "Great fit and quality. Love the black color!"
+        },
+        {
+          "username": "Fashionista456",
+          "rating": 4.5,
+          "comment": "Slim-fit is on point. Comfortable to wear all day."
+        }
+      ]
+    },
+    {
+      "id": 853,
+      "name": "Athletic Running Shoes",
+      "category": "Footwear",
+      "brand": "RunFlex",
+      "price": 79.99,
+      "color": "Red/Black",
+      "size": "US 9",
+      "material": "Mesh and Rubber",
+      "description": "High-performance running shoes designed for comfort and speed on the track.",
+      "shortDescription": "Athletic running shoes for speed and comfort.",
+      "images": ["image_url7.jpg", "image_url8.jpg", "image_url9.jpg"],
+      "availability": true,
+      "rating": 4.8,
+      "reviews": [
+        {
+          "username": "SpeedRunner123",
+          "rating": 5,
+          "comment": "Excellent shoes for running. Lightweight and supportive!"
+        },
+        {
+          "username": "FitnessEnthusiast",
+          "rating": 4.5,
+          "comment": "Great choice for my daily runs. Stylish and comfortable."
+        }
+      ]
+    },
+    {
+      "id": 832,
+      "name": "Athletic Running Shoes",
+      "category": "Footwear",
+      "brand": "RunMax",
+      "price": 69.99,
+      "color": "Red/Black",
+      "size": "10",
+      "material": "Mesh and Synthetic",
+      "description": "High-performance athletic running shoes for enthusiasts and professionals.",
+      "shortDescription": "Comfortable and durable running shoes for all types of runners.",
+      "images": ["image_url7.jpg", "image_url8.jpg", "image_url9.jpg"],
+      "availability": true,
+      "rating": 4.8,
+      "reviews": [
+        {
+          "username": "RunFanatic123",
+          "rating": 5,
+          "comment": "Absolutely love these shoes! Perfect for long-distance running."
+        },
+        {
+          "username": "FitnessEnthusiast",
+          "rating": 4.5,
+          "comment": "Great support and cushioning. Stylish design too!"
+        }
+      ]
+    },
+    {
+      "id": 842,
+      "name": "Athletic Running Shoes",
+      "category": "Footwear",
+      "brand": "SpeedRunner",
+      "price": 59.99,
+      "color": "Red/Black",
+      "size": "10",
+      "material": "Mesh and Rubber",
+      "description": "High-performance athletic running shoes designed for comfort and speed.",
+      "shortDescription": "Run faster with our stylish and comfortable athletic shoes.",
+      "images": ["image_url7.jpg", "image_url8.jpg", "image_url9.jpg"],
+      "availability": true,
+      "rating": 4.8,
+      "reviews": [
+        {
+          "username": "RunKing123",
+          "rating": 5,
+          "comment": "Absolutely love these running shoes! Lightweight and great support."
+        },
+        {
+          "username": "FitnessFanatic",
+          "rating": 4.5,
+          "comment": "Comfortable for long runs. Stylish design as well."
+        }
+      ]
+    },
+    {
+      "id": 325,
+      "name": "Striped Knit Sweater",
+      "category": "Sweaters",
+      "brand": "CozyStyles",
+      "price": 49.99,
+      "color": "Navy/White",
+      "size": "L",
+      "material": "Acrylic",
+      "description": "Stay warm and stylish with our navy and white striped knit sweater, perfect for chilly days.",
+      "shortDescription": "Cozy and chic striped knit sweater for a fashionable winter look.",
+      "images": ["image_url10.jpg", "image_url11.jpg", "image_url12.jpg"],
+      "availability": true,
+      "rating": 4.6,
+      "reviews": [
+        {
+          "username": "FashionistaGrace",
+          "rating": 5,
+          "comment": "Adorable sweater! The colors are vibrant, and it's so soft."
+        },
+        {
+          "username": "WinterWarmth",
+          "rating": 4.5,
+          "comment": "Keeps me warm in cold weather. Love the stylish design."
+        }
+      ]
+    },
+    {
+      "id": 503,
+      "name": "Classic Leather Jacket",
+      "category": "Jackets",
+      "brand": "UrbanRider",
+      "price": 129.99,
+      "color": "Black",
+      "size": "XL",
+      "material": "Genuine Leather",
+      "description": "Timeless and rugged, our classic black leather jacket is a must-have for every man's wardrobe.",
+      "shortDescription": "Iconic black leather jacket for a timeless and stylish look.",
+      "images": ["image_url13.jpg", "image_url14.jpg", "image_url15.jpg"],
+      "availability": true,
+      "rating": 4.9,
+      "reviews": [
+        {
+          "username": "RiderDude",
+          "rating": 5,
+          "comment": "Fantastic leather jacket! Great quality and fits perfectly."
+        },
+        {
+          "username": "StyleEnthusiast",
+          "rating": 4.8,
+          "comment": "Love the classic design. This jacket is a statement piece!"
+        }
+      ]
+    },
+    {
+      "id": 728,
+      "name": "Floral Print Summer Dress",
+      "category": "Tops",
+      "brand": "SunshineStyles",
+      "price": 34.99,
+      "color": "Pink/Yellow",
+      "size": "M",
+      "material": "Cotton Blend",
+      "description": "Elevate your summer wardrobe with this vibrant floral print dress. Perfect for sunny days and outdoor events.",
+      "shortDescription": "Stylish and comfortable floral print summer dress for a trendy look.",
+      "images": ["image_url16.jpg", "image_url17.jpg", "image_url18.jpg"],
+      "availability": true,
+      "rating": 4.7,
+      "reviews": [
+        {
+          "username": "SummerBreeze",
+          "rating": 5,
+          "comment": "Adorable dress! The floral print is so charming, and it's lightweight for hot days."
+        },
+        {
+          "username": "FashionFloralista",
+          "rating": 4.5,
+          "comment": "Fits well and looks even better in person. Great buy!"
+        }
+      ]
+    },
+    {
+      "id": 921,
+      "name": "Active Performance Hoodie",
+      "category": "Sweaters",
+      "brand": "TechFit",
+      "price": 44.99,
+      "color": "Charcoal Gray",
+      "size": "L",
+      "material": "Polyester Blend",
+      "description": "Stay active and comfortable with our performance hoodie. Ideal for workouts and outdoor activities.",
+      "shortDescription": "High-performance hoodie for active individuals seeking both style and functionality.",
+      "images": ["image_url19.jpg", "image_url20.jpg", "image_url21.jpg"],
+      "availability": true,
+      "rating": 4.6,
+      "reviews": [
+        {
+          "username": "FitLifestyle",
+          "rating": 5,
+          "comment": "Perfect for workouts! The material is breathable, and the fit is excellent."
+        },
+        {
+          "username": "OutdoorEnthusiast",
+          "rating": 4.3,
+          "comment": "Great hoodie for outdoor activities. Keeps you warm without overheating."
+        }
+      ]
+    },
+    {
+      "id": 635,
+      "name": "All-Weather Adventure Jacket",
+      "category": "Jackets",
+      "brand": "TrailMaster",
+      "price": 79.99,
+      "color": "Forest Green",
+      "size": "XL",
+      "material": "Waterproof Nylon",
+      "description": "Conquer any outdoor adventure with our all-weather jacket. Waterproof, durable, and designed for maximum comfort in challenging conditions.",
+      "shortDescription": "Versatile all-weather jacket for outdoor enthusiasts. Stay dry and comfortable on your adventures.",
+      "images": ["image_url22.jpg", "image_url23.jpg", "image_url24.jpg"],
+      "availability": true,
+      "rating": 4.8,
+      "reviews": [
+        {
+          "username": "AdventureSeeker",
+          "rating": 5,
+          "comment": "This jacket is a game-changer! Waterproof and comfortable, perfect for hiking and camping."
+        },
+        {
+          "username": "OutdoorExplorer",
+          "rating": 4.7,
+          "comment": "Excellent quality. It kept me dry in heavy rain and looks great too."
+        }
+      ]
+    },
+    {
+      "id": 874,
+      "name": "Mountain Expedition Parka",
+      "category": "Jackets",
+      "brand": "SummitPro",
+      "price": 129.99,
+      "color": "Ice Blue",
+      "size": "M",
+      "material": "Insulated Gore-Tex",
+      "description": "Designed for extreme cold conditions, our Mountain Expedition Parka provides exceptional warmth and protection. Ideal for high-altitude adventures.",
+      "shortDescription": "High-performance parka for mountain expeditions. Stay warm and comfortable in extreme conditions.",
+      "images": [
+        "image_url25.jpg",
+        "image_url26.jpg",
+        "image_url27.jpg"
+      ],
+      "availability": true,
+      "rating": 4.9,
+      "reviews": [
+        {
+          "username": "PeakClimber",
+          "rating": 5,
+          "comment": "Unbelievable warmth! Survived freezing temperatures at high altitudes without any issues."
+        },
+        {
+          "username": "ColdWeatherWarrior",
+          "rating": 4.8,
+          "comment": "Impressive insulation. The color is also a nice touch for outdoor enthusiasts."
+        }
+      ]
+    },
+    {
+      "id": 357,
+      "name": "Trailblazer Convertible Pants",
+      "category": "Pants",
+      "brand": "ExploreTech",
+      "price": 59.99,
+      "color": "Slate Gray",
+      "size": "L",
+      "material": "Quick-Dry Nylon",
+      "description": "Versatile and practical, our Trailblazer Convertible Pants transform into shorts for varying outdoor conditions. Quick-drying and perfect for hiking and camping.",
+      "shortDescription": "Convertible pants for outdoor enthusiasts. Adapt to changing conditions with ease.",
+      "images": [
+        "image_url28.jpg",
+        "image_url29.jpg",
+        "image_url30.jpg"
+      ],
+      "availability": true,
+      "rating": 4.7,
+      "reviews": [
+        {
+          "username": "HikerPro",
+          "rating": 5,
+          "comment": "Love the versatility! Great for long hikes, and the quick-dry feature is a game-changer."
+        },
+        {
+          "username": "AdventureReady",
+          "rating": 4.5,
+          "comment": "Comfortable and practical. The convertible design is perfect for unpredictable weather."
+        }
+      ]
+    }
+    
+    
+  ]
+}
