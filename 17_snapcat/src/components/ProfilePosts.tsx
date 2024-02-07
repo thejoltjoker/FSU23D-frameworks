@@ -1,3 +1,4 @@
+import { randomString } from "../helpers/strings";
 import { Post } from "../models/Post";
 
 type ProfilePostsProps = {
@@ -9,13 +10,15 @@ const ProfilePosts = ({ posts }: ProfilePostsProps) => {
     <>
       {posts ? (
         <div className="grid grid-cols-3 gap-2">
-          {posts?.map((post) => {
-            return (
-              <div>
-                <img src={post.imageUrl} alt="" />
-              </div>
-            );
-          })}
+          {posts
+            ?.sort((a, b) => (a.date > b.date ? -1 : 1))
+            .map((post) => {
+              return (
+                <div key={post.postId}>
+                  <img src={post.imageUrl} alt="" />
+                </div>
+              );
+            })}
         </div>
       ) : (
         <div className="grid grid-cols-3 gap-2">
@@ -23,7 +26,7 @@ const ProfilePosts = ({ posts }: ProfilePostsProps) => {
             .fill("")
             .map(() => {
               return (
-                <div>
+                <div key={randomString()}>
                   <div className="aspect-square w-full animate-pulse bg-gray-200"></div>
                 </div>
               );

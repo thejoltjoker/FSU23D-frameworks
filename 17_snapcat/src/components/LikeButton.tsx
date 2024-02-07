@@ -1,8 +1,6 @@
 import { useState } from "react";
 
-type Props = {};
-
-const LikeButton = (props: Props) => {
+const LikeButton = () => {
   const [liked, setLiked] = useState(false);
   return (
     <button onClick={() => setLiked(!liked)}>
@@ -12,7 +10,7 @@ const LikeButton = (props: Props) => {
         viewBox="0 0 24 24"
         stroke-width="1.5"
         stroke="currentColor"
-        className={!liked ? "h-6 w-6" : "h-6 w-6 fill-red-500 stroke-red-500"}
+        className={!liked ? "h-6 w-6" : "h-6 w-6 fill-pink-500 stroke-pink-500"}
       >
         <path
           stroke-linecap="round"

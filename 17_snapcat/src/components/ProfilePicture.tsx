@@ -1,6 +1,6 @@
 import { User } from "../models/User";
 
-type ProfilePicture = { user: User | undefined };
+type ProfilePicture = { user: User | null | undefined };
 
 const ProfilePicture = ({ user }: ProfilePicture) => {
   return (
@@ -8,7 +8,7 @@ const ProfilePicture = ({ user }: ProfilePicture) => {
       <img
         src={user?.profilePictureUrl ?? "https://placekitten.com/400/400"}
         alt="Profile picture"
-        className="rounded-full border-2 border-white outline outline-1 outline-gray-300"
+        className="rounded-full border-4 border-slate-900 outline outline-1 outline-slate-500"
       />
     </div>
   );

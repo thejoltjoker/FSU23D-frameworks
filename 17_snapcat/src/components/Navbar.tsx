@@ -3,11 +3,11 @@ import { useNavigate } from "react-router-dom";
 const Navbar = () => {
   const navigate = useNavigate();
   return (
-    <div className="fixed bottom-0 left-0 z-50 h-16 w-full border-t border-gray-200 bg-white">
+    <div className="fixed bottom-0 left-0 z-50 h-16 w-full border-t border-slate-800 bg-slate-900">
       <div className="mx-auto grid h-full max-w-lg grid-cols-3 font-medium">
         <button
           type="button"
-          className="group inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 "
+          className="group inline-flex flex-col items-center justify-center px-5 hover:bg-slate-700"
           onClick={() => {
             navigate("/");
           }}
@@ -30,7 +30,7 @@ const Navbar = () => {
 
         <button
           type="button"
-          className="group inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 "
+          className="group inline-flex flex-col items-center justify-center px-5 hover:bg-slate-700"
           onClick={() => {
             navigate("/");
           }}
@@ -52,7 +52,7 @@ const Navbar = () => {
         </button>
         <button
           type="button"
-          className="group inline-flex flex-col items-center justify-center px-5 hover:bg-gray-50 "
+          className="group inline-flex flex-col items-center justify-center px-5 hover:bg-slate-700"
           onClick={() => {
             navigate("/profile");
           }}
